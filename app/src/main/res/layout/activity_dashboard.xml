@@ -142,7 +142,7 @@
             android:layout_marginTop="15dp"
             android:fontFamily="@font/montserrat"
             android:textStyle="bold"
-            android:text="WO"/>
+            android:text="Travel"/>
 
         <TextView
             android:id="@+id/isi_review1"
@@ -173,7 +173,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="15dp"
             android:fontFamily="@font/montserrat"
-            android:text="WO"
+            android:text="Travel"
             android:textStyle="bold" />
 
         <TextView

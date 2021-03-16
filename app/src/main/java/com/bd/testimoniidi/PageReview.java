@@ -1,5 +1,6 @@
 package com.bd.testimoniidi;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -20,6 +21,7 @@ public class PageReview extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(v.getContext(), Dashboard.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
             }
         });
@@ -31,8 +33,5 @@ public class PageReview extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
-        myList.add("asa");
-
     }
 }

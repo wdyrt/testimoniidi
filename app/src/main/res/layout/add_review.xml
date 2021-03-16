@@ -51,15 +51,14 @@
 
     <Button
         android:id="@+id/submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="34dp"
         android:layout_below="@+id/text_box"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="162dp"
-        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="36dp"
         android:background="@drawable/btn_shape"
         android:foregroundGravity="center"
-        android:hint="Submit"/>
+        android:hint="Submit" />
 
 
 </RelativeLayout>
