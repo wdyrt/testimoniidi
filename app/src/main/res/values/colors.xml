@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="utama">#F1F1F1</color>
+    <color name="category_1">#F1E25B</color>
+    <color name="category_2">#64F1F1</color>
+    <color name="category_3">#C554ED</color>
+    <color name="category_4">#EB5A63</color>
+    <color name="clr_tombol">#D4C750</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

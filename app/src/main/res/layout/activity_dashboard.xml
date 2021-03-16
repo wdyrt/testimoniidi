@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/search_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Testimoni ID"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_above="@id/kategori"
+        android:id="@+id/search_bar"
+        android:layout_width="369dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="573dp"
+        android:background="@drawable/search_shape"
+        android:drawableRight="@drawable/ic_baseline_search_24"
+        android:fontFamily="@font/open_sans_light"
+        android:hint="Cari jasa layanan"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <LinearLayout
+        android:id="@+id/kategori"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="426dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pernikahan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/btn_category1"
+            android:drawablePadding="11dp"
+            android:text="Pernikahan"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/perjalanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/btn_category2"
+            android:drawablePadding="11dp"
+            android:text="Perjalanan"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/pesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/btn_category3"
+            android:drawablePadding="11dp"
+            android:text="Pesta"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/lainnya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/btn_category4"
+            android:drawablePadding="11dp"
+            android:text="Lainnya"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sub_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kategori"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="-350dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Populer"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/sub_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kategori"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="-344dp"
+        android:layout_toEndOf="@+id/sub_title1"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Terdekat"
+        android:textColor="#616161"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:id="@+id/populer1"
+        android:layout_width="386dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/sub_title1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/bg_txt_box"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nama_jasa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"
+            android:text="WO"/>
+
+        <TextView
+            android:id="@+id/isi_review1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:layout_marginTop="40dp"
+            android:text="223" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/populer2"
+        android:layout_width="386dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/sub_title1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/bg_txt_box"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nama_jasa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserrat"
+            android:text="WO"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isi_review2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-25dp"
+            android:layout_marginTop="40dp"
+            android:text="223" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

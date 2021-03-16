@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_start_screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="593dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/montserrat"
+        android:text="Temukan Layanan Terbaikmu"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button_start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="414dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="110dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/montserrat"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:text="Mulai Jelajah"
+        android:textAllCaps="false"
+        android:textColor="#000" />
+
+
+</RelativeLayout>
