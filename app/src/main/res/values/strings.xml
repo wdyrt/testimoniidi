@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">testimoniidi</string>
+    <integer name="INTENT_TAMBAH">1234</integer>
 </resources>
